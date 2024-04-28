@@ -18,7 +18,7 @@ int main()
 	}
 
 	for (int i = 1; i <= count-1; i++) {
-		for (int k = 1; k <= i; k++) {
+		for (int k = 0; k < i; k++) {
 			cout << " ";
 		}
 		for (int j = 0; j < 2*(count-i)-1; j++) {
